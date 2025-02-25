@@ -1,4 +1,4 @@
-# About me 👋
+![Chitramoy Mukherjee](https://github.com/chitramoy/chitramoy.github.io/blob/main/Image/Chitramoy_image.jpg)
 
 ##  Chitramoy Mukherjee	
 ###  Datawarehouse Engineer & Data Scientist	
