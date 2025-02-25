@@ -4,8 +4,8 @@
   <img src="https://github.com/chitramoy/chitramoy.github.io/blob/main/Image/Chitramoy_image.jpg" alt="Chitramoy Mukherjee" width="150" style="margin-right: 20px;">
   <div>
 
-## Chitramoy Mukherjee	
-### Datawarehouse Engineer	& Data Scientist	
+### Chitramoy Mukherjee
+**Datawarehouse Engineer | Data Scientist**
 
 #### Professional Summary:
 Highly experienced in Datawarehouse domain with over 18 years of expertise in developing and managing Datawarehouseprojects in 
