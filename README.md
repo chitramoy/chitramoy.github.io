@@ -56,7 +56,7 @@ Master of Science in Data Science from Bellevue University, building a solid fou
 ##### Project Title-10: Placeholder for Term Project 3
 **Project Description:** 
 
-#### GitHub Portfolio: (https://github.com/chitramoy/chitramoy)
+#### GitHub Portfolio: https://github.com/chitramoy/chitramoy.github.io
 
 #### LinkedIn: https://www.linkedin.com/in/chitramoy-mukherjee-4a3a8218/
 
