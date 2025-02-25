@@ -1,6 +1,7 @@
-##  Chitramoy Mukherjee	| Datawarehouse Engineer | Data Scientist	
+![Chitramoy Mukherjee](https://github.com/chitramoy/chitramoy.github.io/blob/main/Image/Chitramoy_image.jpg)
 
-### Professional Summary:
+###  Chitramoy Mukherjee	| Datawarehouse Engineer	| Data Scientist	
+#### Professional Summary:
 Highly experienced in Datawarehouse domain with over 18 years of expertise in developing and managing Datawarehouseprojects in 
 banking and financial domain, Includes Abinitio, Informatica, Unix, Mainframe, Db2, Netezza, Oracle and Hadoop HDFS. 
 Proficient in Python programming for unix shell scripting and automation, also skilled in Ansible and Terraform for infrastructure automation 
@@ -9,12 +10,12 @@ and seamless deployment.
 Having worked extensively in financial and banking services, product domains. Explores snowflake, AWS and Azure consistently 
 emerging technologies to enhance system reliability, scalability, and automation processes.
 
-### Educational Background: 
+#### Educational Background: 
 Master of Science in Data Science from Bellevue University, building a solid foundation in data analytics, 
 machine learning, and big data technologies. The program focused on equipping professionals with the ability to extract insights,
 build predictive models, and deploy scalable data solutions.
 
-### Core Skills and Technologies:
+#### Core Skills and Technologies:
 Datawarehousing: Abinitio, Informatica, Netezza, Oracle, DB2, Hadoop HDFS Data Science and 
 Analytics: Python, R, SQL, Tableau, Power BI Machine Learning Algorithms: Supervised and Unsupervised Learning, Recommendation Systems 
 Automation Tools: Ansible, Terraform, Docker, Kubernetes Cloud Platforms: AWS, Azure (Certified) 
