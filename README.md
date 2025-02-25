@@ -1,6 +1,10 @@
-![Chitramoy Mukherjee](https://github.com/chitramoy/chitramoy.github.io/blob/main/Image/Chitramoy_image.jpg)
+# About me 👋
 
-###  Chitramoy Mukherjee	| Datawarehouse Engineer	| Data Scientist	
+<div style="display: flex; align-items: flex-start;">
+  <img src="https://github.com/chitramoy/chitramoy.github.io/blob/main/Image/Chitramoy_image.jpg" alt="Chitramoy Mukherjee" width="150" style="margin-right: 20px;">
+  <div>
+
+###  Chitramoy Mukherjee	Datawarehouse Engineer	Data Scientist	
 #### Professional Summary:
 Highly experienced in Datawarehouse domain with over 18 years of expertise in developing and managing Datawarehouseprojects in 
 banking and financial domain, Includes Abinitio, Informatica, Unix, Mainframe, Db2, Netezza, Oracle and Hadoop HDFS. 
