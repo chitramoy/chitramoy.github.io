@@ -49,6 +49,7 @@ Master of Science in Data Science from Bellevue University, building a solid fou
 
 ##### Project Title-08: HeartGuard: Early Detection of Heart Disease
 **Project Description:** Developed a machine learning model for early detection of heart disease. The project involved data collection, preprocessing, exploratory data analysis (EDA), and model training to help stakeholders make data-driven decisions.
+##### Project Code : https://github.com/chitramoy/chitramoy.github.io/tree/main/HeartGuard%20Early%20Detection%20of%20Heart%20Disease
 
 ##### Project Title-09: Wildlife Protection of Endangered Species
 **Project Description:** An endangered species is a type of organism that is threatened by extinction. Species become endangered for two main reasons: loss of habitat and loss of genetic variation. The conservation of endangered and rare wildlife is a primary part of preserving biodiversity. The purpose of this project is to intelligently monitor endangered and rare wildlife species by using Machine Learning models with animal data and computational resources from various parks in the United States.
