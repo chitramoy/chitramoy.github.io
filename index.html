@@ -6,6 +6,23 @@
     <style>
       body {
         background-color: lightblue; /* Set the background color to light blue */
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent body from scrolling */
+      }
+      .static-content {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: lightblue;
+        z-index: 1;
+        padding: 20px;
+      }
+      .scrollable-content {
+        margin-top: 200px; /* Adjust based on the height of the static content */
+        height: calc(100vh - 200px); /* Adjust based on the height of the static content */
+        overflow-y: auto;
+        padding: 20px;
       }
       ol {
         columns: 4;
@@ -27,66 +44,68 @@
   </head>
   
   <body>
-    <h1 align="left">Chitramoy Mukherjee</h1>
-    <div class="image-container">
-      <img src="Image/Chitramoy_image.jpg" alt="Chitramoy" />
+    <div class="static-content">
+      <h1 align="left">Chitramoy Mukherjee</h1>
+      <div class="image-container">
+        <img src="Image/Chitramoy_image.jpg" alt="Chitramoy" />
+      </div>
+      <p align="left">chitramoy@gmail.com</p>
+      <p align="left"><a href="https://www.linkedin.com/in/chitramoy-mukherjee-4a3a8218">Connect me at LinkedIn</a></p>
+      <hr>
     </div>
-    <p align="left">chitramoy@gmail.com</p>
-    <p align="left"><a href="https://www.linkedin.com/in/chitramoy-mukherjee-4a3a8218">Connect me at LinkedIn</a></p>
 
-    <hr>
+    <div class="scrollable-content">
+      <h3>Professional Summary:</h3>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highly experienced in Datawarehouse domain with over 18 years of expertise in developing and managing Datawarehouse projects in banking and financial domain, Includes Abinitio, Informatica, Unix, Mainframe, Db2, Netezza, Oracle and Hadoop HDFS.</p> 
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proficient in Python programming for unix shell scripting and automation, also skilled in Ansible and Terraform for infrastructure automation and seamless deployment. Having worked extensively in financial and banking services, product domains. Explores snowflake, AWS and Azure consistently emerging technologies to enhance system reliability, scalability, and automation processes.</p>
+      
+      <h3>Educational Background:</h3>
+      <ul>
+        <li>Masters in Data Science, Bellevue University.</li>
+        <li>B.TECH in Electrical Engineering, Meghnad Saha Institute of Technology.</li>
+      </ul>
 
-    <h3>Professional Summary:</h3>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highly experienced in Datawarehouse domain with over 18 years of expertise in developing and managing Datawarehouse projects in banking and financial domain, Includes Abinitio, Informatica, Unix, Mainframe, Db2, Netezza, Oracle and Hadoop HDFS.</p> 
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proficient in Python programming for unix shell scripting and automation, also skilled in Ansible and Terraform for infrastructure automation and seamless deployment. Having worked extensively in financial and banking services, product domains. Explores snowflake, AWS and Azure consistently emerging technologies to enhance system reliability, scalability, and automation processes.</p>
-    
-    <h3>Educational Background:</h3>
-    <ul>
-      <li>Masters in Data Science, Bellevue University.</li>
-      <li>B.TECH in Electrical Engineering, Meghnad Saha Institute of Technology.</li>
-    </ul>
-
-    <h3>Core Skills and Technologies:</h3>
-    <ul>
-      <li><b>Datawarehousing :</b> Abinitio, Informatica, Netezza, Oracle, DB2, Snowflake.</li>
-      <li><b>Analytics :</b> Python, R, SQL, Tableau, Power BI Machine Learning Algorithms: Supervised and Unsupervised Learning, Recommendation Systems.</li>
-      <li><b>Automation Tools :</b> Ansible, Terraform, Docker, Kubernetes Cloud Platforms: AWS, Azure (Certified).</li>
-      <li><b>Big Data Frameworks :</b> Hadoop, Spark, TensorFlow.</li>
-      <li><b>Data Visualization and Reporting:</b> Tableau, Power BI, Matplotlib, Seaborn.</li>
-    </ul>
-    
-    <h3>Experience:</h3>
-    <ul>
-      <li><b>Fiserv :</b> Project Manager</li>
-      <p>Manage and Deliver Datawarehouse projects in merchant and Finance domain.</p>
-      <li><b>Cognizant Technology Solutions :</b> ETL Team Lead</li>
-      <p>Lead the Datawarehouse projects for Banking and Finance domain.</p>
-    </ul>
-    
-    <h3>Projects:</h3>
-    <ol>
-	  <li><b>Making Childcare Affordable</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Making%20Childcare%20Affordable">project</a>
-      <li><b>EDA on popularity of music among various age people</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Music%20and%20Mental%20health%20EDA%20analysis">project</a>
-      <li><b>Analyze Hotel Booking data using Big Data Components</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/PROCESS%20AND%20ANALYZE%20HOTEL">project</a>
-      <li><b>Improving Passenger Experience Through Data-Driven Insights</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Improving%20Passenger%20Experience%20Through%20Data-Driven%20Insights">project</a>
-      <li><b>ncovering the Rise in Kia and Hyundai Vehicle Thefts</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Increasing%20Kia%20%26%20Hyundai%20Car%20Thefts%20Across%20the%20U.S">project</a>
-      <li><b>Predictive analysis on Hotel Booking cancellation</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Predictive%20analysis%20on%20Hotel%20Booking%20Cancellation">project</a>
-      <li><b>Analyze Mental health disorder in Tech Companies</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Analyze%20Mental%20health%20disorder%20in%20Tech%20Companies">project</a>
-      <li><b>HeartGuard Early Detection of Heart Disease</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/HeartGuard%20Early%20Detection%20of%20Heart%20Disease">project</a>
-      <li><b>Wildlife Protection of Endangered Species</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Wildlife%20Protection%20of%20Endangered%20Species">project</a>
-	  <li><b>Home Loan Approval Predictor</b></li>
-      &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Home%20Loan%20Approval%20Predictor">project</a>
-
-    </ol>
-    <hr>
+      <h3>Core Skills and Technologies:</h3>
+      <ul>
+        <li><b>Datawarehousing :</b> Abinitio, Informatica, Netezza, Oracle, DB2, Snowflake.</li>
+        <li><b>Analytics :</b> Python, R, SQL, Tableau, Power BI Machine Learning Algorithms: Supervised and Unsupervised Learning, Recommendation Systems.</li>
+        <li><b>Automation Tools :</b> Ansible, Terraform, Docker, Kubernetes Cloud Platforms: AWS, Azure (Certified).</li>
+        <li><b>Big Data Frameworks :</b> Hadoop, Spark, TensorFlow.</li>
+        <li><b>Data Visualization and Reporting:</b> Tableau, Power BI, Matplotlib, Seaborn.</li>
+      </ul>
+      
+      <h3>Experience:</h3>
+      <ul>
+        <li><b>Fiserv :</b> Project Manager</li>
+        <p>Manage and Deliver Datawarehouse projects in merchant and Finance domain.</p>
+        <li><b>Cognizant Technology Solutions :</b> ETL Team Lead</li>
+        <p>Lead the Datawarehouse projects for Banking and Finance domain.</p>
+      </ul>
+      
+      <h3>Projects:</h3>
+      <ol>
+        <li><b>Making Childcare Affordable</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Making%20Childcare%20Affordable">project</a>
+        <li><b>EDA on popularity of music among various age people</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Music%20and%20Mental%20health%20EDA%20analysis">project</a>
+        <li><b>Analyze Hotel Booking data using Big Data Components</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/PROCESS%20AND%20ANALYZE%20HOTEL">project</a>
+        <li><b>Improving Passenger Experience Through Data-Driven Insights</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Improving%20Passenger%20Experience%20Through%20Data-Driven%20Insights">project</a>
+        <li><b>Uncovering the Rise in Kia and Hyundai Vehicle Thefts</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Increasing%20Kia%20%26%20Hyundai%20Car%20Thefts%20Across%20the%20U.S">project</a>
+        <li><b>Predictive analysis on Hotel Booking cancellation</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Predictive%20analysis%20on%20Hotel%20Booking%20Cancellation">project</a>
+        <li><b>Analyze Mental health disorder in Tech Companies</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Analyze%20Mental%20health%20disorder%20in%20Tech%20Companies">project</a>
+        <li><b>HeartGuard Early Detection of Heart Disease</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/HeartGuard%20Early%20Detection%20of%20Heart%20Disease">project</a>
+        <li><b>Wildlife Protection of Endangered Species</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Wildlife%20Protection%20of%20Endangered%20Species">project</a>
+        <li><b>Home Loan Approval Predictor</b></li>
+        &nbsp;&nbsp;<a href="https://github.com/chitramoy/chitramoy.github.io/tree/main/Home%20Loan%20Approval%20Predictor">project</a>
+      </ol>
+      <hr>
+    </div>
   </body>
 </html>
